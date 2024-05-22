@@ -75,7 +75,7 @@ services:
       KEYCLOAK_DB_PASSWORD: Tumlab2022*
       KEYCLOAK_DB_NAME: keycloak
     ports:
-      - "4001:4000"
+      - "4000:4000"
     depends_on:
       - keycloak
     networks:
